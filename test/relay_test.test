@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="sainsmart_relay_usb" name="relay_node" type="relay_node" />
+
+  <test test-name="relay_test" pkg="sainsmart_relay_usb_demo" type="relay_test"/>
+
+</launch>
